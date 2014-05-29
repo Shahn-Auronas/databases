@@ -1,7 +1,7 @@
 "use strict";
 
 const file = require("file"),
-	  rdfParser = require("/Users/shahnauronas/databases/lib/rdf-parser.js");
+	  rdfParser = require("./lib/rdf-parser.js");
 
 console.log("beginning directory walk...");
 

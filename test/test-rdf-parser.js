@@ -1,7 +1,7 @@
 "use strict";
 
 const rdfParser = require("/Users/shahnauronas/databases/lib/rdf-parser.js"),
-	  expectedValue = require("/Users/shahnauronas/databases/test/pg132.json");
+	  expectedValue = require("./pg132.json");
 
 exports.testRDFParser = function (test) {
 	rdfParser(__dirname + "/pg132.rdf", function (err, book) {
